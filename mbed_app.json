@@ -3,6 +3,10 @@
         "K64F": {
             "storage.storage_type": "TDB_INTERNAL"
         },
+        "NRF52840_DK": {
+            "target.components_add": ["FLASHIAP"],
+            "storage.storage_type": "TDB_INTERNAL"
+        },
         "*": {
             "platform.stdio-baud-rate": 115200,
             "platform.default-serial-baud-rate": 115200,
